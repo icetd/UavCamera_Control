@@ -3,7 +3,7 @@
 /** @brief set usb camera param 
  *  @param type enum:
  *      WHITE_BALANCE_TEMPERATURE: 4600[2800, 6500]
- *      BRIGHTNESS 0[-64, 64
+ *      BRIGHTNESS 0[-64, 64]
  *      CONTRAST 40[0, 100]
  *      SATURATION 64[0, 100]
  *      HUE 0[-180, 180]
