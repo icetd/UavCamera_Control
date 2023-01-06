@@ -71,7 +71,6 @@ int main(int argc, char **argv)
 	
 
     for(;;) {
-
         server->receiveData();
         if(server->recv_buf) {
             printf("%s\nlen:%d\n", server->recv_buf, server->recv_len);
