@@ -63,9 +63,9 @@ int main(int argc, char **argv)
     UsbCamera *uav1 = new UsbCamera(2);
     UsbCamera *uav2 = new UsbCamera(4);
     UsbCamera *uav3 = new UsbCamera(6);
-	lightInit(0);
+    lightInit(0);
 	
-	UdpServer *server = new UdpServer(6666);
+    UdpServer *server = new UdpServer(6666);
     cJSON *jsonrecv = new cJSON;
     uavParam *uavparam = new uavParam;
 	
@@ -103,6 +103,9 @@ int main(int argc, char **argv)
     }
 
     delete uav0;
+    delete uav1;
+    delete uav2;
+    delete uav3
     delete server;
     delete jsonrecv;
     delete uavparam;
